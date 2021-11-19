@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  data-connector-worker:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-11-19T14:48:21.994135061Z"
+    dependencies:
+    - condition: broker.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.24.2
+    - condition: oracledb.enabled
+      name: oracledb
+      repository: ""
+      version: 0.1.2
+    description: A Helm chart for Kubernetes
+    digest: 214faa01d8b647bb8013b2fd4a716a9ed3feeda7fe81202513ca02c4f6b95e59
+    name: data-connector-worker
+    type: application
+    urls:
+    - https://lucasolivio.github.io/helmcharts-test/charts/data-connector-worker-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-11-19T14:48:21.989189241Z"
